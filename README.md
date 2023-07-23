@@ -435,9 +435,9 @@ method=auto
 > **Note** 
 > We encountered issues when connecting the Quectel RM500Q-GL modem to a regular laptop. Despite checking the compatibility of kernel versions and operating systems, the modem was never detected on the laptops for unknown reasons.
 
-# Hardware architecture {#cha:hw-arch}
+# Hardware architecture
 
-## 5G network {#sec:5g-net}
+## 5G network
 
 In research studies, having a controlled environment and the ability to
 manipulate conditions is important. However, when working within a 5G
