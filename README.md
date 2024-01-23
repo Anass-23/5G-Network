@@ -113,15 +113,13 @@ file and the database) to their respective paths.
     ` /oai-cn5g-fed/docker-compose`
 
     ```shell
-    wget -O ~/oai-cn5g-fed/docker-compose/docker-compose-basic-nrf.yaml
-    https://gitlab.eurecom.fr/oai/openairinterface5g/-/raw/develop/doc/tutorial_resources/docker-compose-basic-nrf.yaml?inline=false
+    wget -O ~/oai-cn5g-fed/docker-compose/docker-compose-basic-nrf.yaml https://gitlab.eurecom.fr/oai/openairinterface5g/-/raw/develop/doc/tutorial_resources/oai-cn5g/docker-compose.yaml?ref_type=heads
     ```
 
 -   Copy `oai_db.sql` to ` /oai-cn5g-fed/docker-compose/database`
 
     ```shell
-        wget -O ~/oai-cn5g-fed/docker-compose/database/oai_db.sql
-        https://gitlab.eurecom.fr/oai/openairinterface5g/-/raw/develop/doc/tutorial_resources/oai_db.sql?inline=false
+        wget -O ~/oai-cn5g-fed/docker-compose/database/oai_db.sql https://gitlab.eurecom.fr/oai/openairinterface5g/-/raw/develop/doc/tutorial_resources/oai-cn5g/database/oai_db.sql?ref_type=heads
     ```
 
 > **Note**
