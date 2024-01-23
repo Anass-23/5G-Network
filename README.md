@@ -128,8 +128,10 @@ file and the database) to their respective paths.
 > In the event of having a SIM Card Programmer, we can modify its internal parameters using the application [uicc-v2.6](https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v2.6.tgz) from [Open Cells Project](https://open-cells.com/). Otherwise, we will need to have an already programmed SIM and modify the CN database values to fit into SIM ones:
 
 ```shell
-  sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key ed08905757b1bb44b8f --opc C42449363BBAD02B66D16BC975D77CC1 --spn "OpenAirInterface" --authenticate
+  sudo ./program_uicc --adm 12345678 --imsi 001010000000001 --isdn 00000001 --acc 0001 --key fec86ba6eb707ed08905757b1bb44b8f --opc C42449363BBAD02B66D16BC975D77CC1 --spn "OpenAirInterface" --authenticate
 ```
+
+
 
 #### Configuration
 
